@@ -142,13 +142,17 @@ html, body {
   margin: 0;
 }
 .wrapper {
-  min-height: 100%;}
+  min-height: 100%;
+    flex-direction: column;
+    display: flex;
+    flex-shrink: 0;
+}
 .footer,
 .push {
   height: 3px;
     margin-bottom: 0px;
     margin-top: 2px;
-    height: 10px;
+    height: 5px;
     clear: both;
     
     
@@ -158,6 +162,9 @@ html, body {
 .contact {
     padding: 50px 0 80px;
     text-align: center;
+    flex-direction: column;
+    margin-bottom: 370px;
+
     
 }
 
