@@ -1,0 +1,232 @@
+
+/*Navbar ************/
+
+.navbar {
+    background-color: #6f7270;
+    margin-bottom: 0;
+    border-radius: 0;
+    color: #FFF;
+    padding: 1% 0;
+    font-size: 1.2em;
+    border: 0;  
+    background-blend-mode: lighten;
+
+}
+
+.navbar-brand {
+    float: left;
+    min-height: 80.8px;
+    padding: 0 15px 7px; 
+    background-image: image(1HoodieGraylogoBack.png);
+    background-blend-mode: darken, overlay;
+    
+    
+}
+
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {   
+    color: #FFF;
+    background-color: #6f7270;
+}
+
+.nav, .navbar-nav, .navbar-right {
+    margin-top: 20px;
+}
+
+.navbar-inverse .navbar-nav li a  {
+    color: #D5D5D5;
+}
+
+/*Carousel********/
+
+.carousel-caption {
+    top: 50;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+    color: #D5D5D5;
+}
+
+
+left-carousel-control {
+    position: 0;
+    top: 0;
+    bottom: 0;
+    width: 6%;
+    left: 500%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,0);
+    opacity: 0;
+
+
+}
+
+
+.right-carousel-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 6%;
+    right: -560%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,0);
+    
+
+    float: right;
+}
+
+
+.btn {
+    font-size: 18px;
+    color: rgb(20, 53, 26);
+    padding: 15px 25px;
+    background: #23c544;
+    border: 2px solid #FFF;
+    margin-bottom: 15px;
+    
+}
+
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    right: 5%;
+    
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-next {
+    left: 10%;
+    color: #fff;
+    
+    
+/*ABout********/
+}
+
+.col-sm-3 sidenav {
+    
+    background-color: #6f7270;
+    color: forestgreen;
+    
+}
+
+ul .nav nav-pills nav-stacked li{
+       border-radius: 0;
+    width: 100%;
+    font-size: 15px;
+    background-color: #6f7270;
+    color: forestgreen;
+    
+    
+}
+
+
+/*Footer******/
+footer {
+    text-align: center;
+    background-color: #6f7270;
+    border-width: auto;
+    font-size: 20px;
+    color: wheat;
+  
+    
+}
+
+h2 {
+    font-size: 1.7em;
+    
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100%;}
+.footer,
+.push {
+  height: 3px;
+    margin-bottom: 0px;
+    margin-top: 2px;
+    height: 10px;
+    clear: both;
+    
+    
+}
+
+/*Contact Form*/
+.contact {
+    padding: 50px 0 80px;
+    text-align: center;
+    
+}
+
+.contact p {
+    
+    padding-bottom: 80px;
+    color: #737373;
+    
+    
+}
+
+.contact h2 {
+    color: #4c4c4c;
+    margin: 20px 0 20px;
+    
+}
+
+.contact .input-group {
+    margin-bottom: 25px;
+    
+}
+
+.contact .form-control {
+    border-radius: 0 !important;
+    
+}
+
+contact span {
+    border-radius: 0 !important;}
+
+.contact .btn {
+    border-radius: 0;
+    width: 100%;
+    font-size: 15px;
+    background-color: #6f7270;
+}
+
+/*Mobile********/
+@media screen and (max-width: 767px) 
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+
+.contact .btn:hover {
+    background-color: #23c544;
+    color: #fff !important;
+    
+}
+@media screen and (max-width: 600px) 
+    .carousel-caption {
+
+}
+
+
+/*
+#icon {max-width: 150px;
+    min-width: 100px;
+*/
+    
+}
+
+
+
+
+
+
+
+
+
+
+    
